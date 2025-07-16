@@ -11,15 +11,15 @@ const previas = {
     "Neurobiología", "Cardio y Respiratorio", "Digestivo, Renal y Endocrino", "Reproductor y Desarrollo", "Profundización", "Bioquímica"
   ],
   "Farmacología": [
-   "Enfermería", "Metodología Científica", "Biología Celular y Tisular (BCyT)", "Anatomía", "Salud Pública", "Psicología",
+    "Enfermería", "Metodología Científica", "Biología Celular y Tisular (BCyT)", "Anatomía", "Salud Pública", "Psicología",
     "Neurobiología", "Cardio y Respiratorio", "Digestivo, Renal y Endocrino", "Reproductor y Desarrollo", "Profundización", "Bioquímica"
   ],
   "Unidad temática 1": [
-    "Biofísica","Farmacología", "Fisiopatología y Patología"
+    "Biofísica", "Farmacología", "Fisiopatología y Patología"
   ],
-   "Unidad temática 5": [
-     "Biofísica","Farmacología", "Fisiopatología y Patología"
-       ],
+  "Unidad temática 5": [
+    "Biofísica", "Farmacología", "Fisiopatología y Patología"
+  ],
   "Unidad temática 2": ["Unidad temática 1"],
   "Unidad temática 3": ["Unidad temática 1"],
   "Unidad temática 4": ["Unidad temática 1"],
@@ -30,20 +30,22 @@ const previas = {
     "Unidad temática 8",
     "Enfermería", "Metodología Científica", "Biología Celular y Tisular (BCyT)", "Anatomía", "Salud Pública", "Psicología",
     "Neurobiología", "Cardio y Respiratorio", "Digestivo, Renal y Endocrino", "Reproductor y Desarrollo",
-    "Biofísica", "Profundización", "Bioquímica",
+    "Fisica", "Profundización", "Bioquímica",
     "Farmacología", "Fisiopatología y Patología",
+    "Biofísica",
     "Unidad temática 1", "Unidad temática 2", "Unidad temática 3", "Unidad temática 4",
     "Unidad temática 5", "Unidad temática 6", "Unidad temática 7"
   ],
   "Monografía": [
-   "Unidad temática 8",
+    "Unidad temática 8",
     "Enfermería", "Metodología Científica", "Biología Celular y Tisular (BCyT)", "Anatomía", "Salud Pública", "Psicología",
     "Neurobiología", "Cardio y Respiratorio", "Digestivo, Renal y Endocrino", "Reproductor y Desarrollo",
-    "Biofísica", "Profundización", "Bioquímica",
+    "Fisica", "Profundización", "Bioquímica",
     "Farmacología", "Fisiopatología y Patología",
+    "Biofísica",
     "Unidad temática 1", "Unidad temática 2", "Unidad temática 3", "Unidad temática 4",
     "Unidad temática 5", "Unidad temática 6", "Unidad temática 7"
-  ],
+  ]
 };
 
 function actualizarEstado() {
