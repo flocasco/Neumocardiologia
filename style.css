@@ -1,0 +1,110 @@
+/* === BASE === */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #FDFBFC; /* fondo general - neutro pastel */
+  color: #444;
+}
+
+/* === TÍTULO PRINCIPAL === */
+.titulo-malla {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 30px 0 20px 0;
+  color: #8F9ECE; /* azul suave (de la paleta: Seastone) */
+}
+
+/* === CONTENEDOR GENERAL === */
+.malla {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 10px 20px 50px;
+}
+
+/* === COLUMNA DE AÑO === */
+.año {
+  background-color: #FFF9F6; /* fondo suave tipo lino */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 15px 20px;
+  min-width: 220px;
+  max-width: 280px;
+}
+
+/* === CABECERA DE AÑO === */
+.año h2 {
+  background-color: #FFE8A3; /* amarillo manteca suave */
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #8F9ECE; /* azul armonioso */
+}
+
+/* === TÍTULO SEMESTRE === */
+.titulo-semestre {
+  margin: 14px 0 8px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #8F9ECE; /* azul pastel */
+  text-align: center;
+}
+
+/* === MATERIA === */
+.materia {
+  background-color: #DCEBF7; /* celeste claro – Ocean Air */
+  color: #2f2f2f;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 6px 0;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+
+/* === MATERIA HOVER === */
+.materia:hover {
+  background-color: #A7BDD8; /* azul más saturado – Seastone */
+  color: #fff;
+}
+
+/* === MATERIA COMPLETADA === */
+.materia.completed {
+  background-color: #D7EDD6; /* verde claro – Sage */
+  text-decoration: line-through;
+  color: #2d5c3b;
+}
+
+/* === MATERIA BLOQUEADA === */
+.materia.locked {
+  background-color: #eeeeee;
+  color: #aaa;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+/* === BOTÓN DE REINICIO === */
+button {
+  margin: 30px auto;
+  display: block;
+  padding: 10px 18px;
+  font-size: 14px;
+  border: 1px solid #8F9ECE;
+  background-color: #fff;
+  color: #8F9ECE;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #DCEBF7;
+  color: #333;
+}
